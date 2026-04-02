@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./Signup.css";
+import "./signup.css";
 
 
 // import { PageHeader } from "@primer/react/draft";
