@@ -22,7 +22,7 @@ const Login = () => {
       localStorage.setItem("userId", res.data.userId);
 
       setLoading(false);
-      window.location.href = "http://localhost:5174/";
+      window.location.href = "https://zerodha-1-3a21.onrender.com";
     } catch (err) {
       console.error(err);
       alert("Login Failed!");

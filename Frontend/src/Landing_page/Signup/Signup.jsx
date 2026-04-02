@@ -33,7 +33,7 @@ const Signup = () => {
     
       setLoading(false);
 
-      window.location.href = "http://localhost:5174/";
+      window.location.href = "https://zerodha-1-3a21.onrender.com";
     } catch (err) {
       console.error(err);
       alert("Signup Failed!");
