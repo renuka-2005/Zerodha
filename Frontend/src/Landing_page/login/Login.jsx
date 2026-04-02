@@ -13,7 +13,7 @@ const Login = () => {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:8080/login", {
+      const res = await axios.post("https://zerodha-o2lh.onrender.com/login", {
         email,
         password,
       });
